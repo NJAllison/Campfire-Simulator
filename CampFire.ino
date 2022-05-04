@@ -12,7 +12,7 @@ int tim_delay = 40;   //this is the loop time in milliseconds
 // how often leds can change
 #define numleds  4              // total number of LEDs for the simulation
 byte ledpins [] = {6,9,10,11}; // the pins in order that will drive each LED (Yellow,Red,White,Orange)
-byte time_on [] = {40,50,5,50}; //the percentage of time on for each color from 1-100
+byte time_on [] = {60,50,50,10}; //the percentage of time on for each color from 1-100
 
 void setup() {
   randomSeed(analogRead(0));
